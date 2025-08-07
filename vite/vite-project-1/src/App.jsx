@@ -1,12 +1,10 @@
-import React from 'react'
-
-function App() {
+export default function App() {
   return (
-    <div className="bg-red-500 text-white p-4 rounded">
-  Tailwind is working 🎉
-</div>
-
-  )
+    <div className="h-screen bg-green-500 text-white flex flex-col justify-center items-center gap-4">
+      <h1 className="text-4xl font-bold">Tailwind is working 🎉</h1>
+      <button className="px-6 py-2 bg-blue-600 hover:bg-blue-800 rounded-md">
+        Click Me
+      </button>
+    </div>
+  );
 }
-
-export default App
