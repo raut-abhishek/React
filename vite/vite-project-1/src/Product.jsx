@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Product() {
+function Product({productValue}) {
+
   return (
-    <div className='text-gray-950 font-bold'>New Product</div>
+    <div className='text-gray-950 font-bold'>Number {productValue}</div>
   )
 }
 
