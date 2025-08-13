@@ -10,7 +10,7 @@ function App(){
   return (
   <>
   <h1>Hello {user}</h1>
-  <h2> Your username is- {a}</h2>
+  <h2> Your username- {a}</h2>
   <button onClick={changeUsername}>Change username</button>
   </>)
 }
