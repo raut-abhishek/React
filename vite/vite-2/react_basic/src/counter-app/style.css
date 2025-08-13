@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to bottom right, #eae0d5, #d6cbc2, #f4f0ec) ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.button-container{
+    height: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+button {
+    height: 70px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #000000;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    background-color: #ffffff;
+}
+
+.h1-container{
+    height: 150px;
+    width: 600px;
+    margin-bottom: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+#hero{
+    height: 100%;
+    width: 65%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size:90px;
+}
+
+#count{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+::selection{
+    color: white;
+    background-color: #000000;
+}
