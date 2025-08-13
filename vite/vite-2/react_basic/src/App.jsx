@@ -3,7 +3,6 @@ function App(){
   var [a, setA] = useState("abhishek01")
   const age = 23;
   const user = "Abhishek"
-  // var userName = "abhishek01"
   const changeUsername = ()=>{
       setA(`abhishek${Math.floor(Math.random()*1000)}`);
   }
