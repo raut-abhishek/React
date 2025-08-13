@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: linear-gradient(to bottom right, #DFE0E2, #BBBCC3, #787A84);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+button{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
