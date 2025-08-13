@@ -1,9 +1,14 @@
 // import UsernameGenerator from "./username-generator/UsernameGenerator";
 import CounterApp from'./counter-app/CounterApp';
+import MouseFollower from'./mouse-follower/MouseFollower'
 
 function App() {
-  // return <UsernameGenerator />;
-  return <CounterApp />;
+  return(
+    <>
+    {/* <UsernameGenerator />; */}
+    <MouseFollower />
+    <CounterApp />
+  </> )
 
 }
 
