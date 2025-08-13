@@ -11,27 +11,4 @@ body{
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    background: linear-gradient(to bottom right, #DFE0E2, #BBBCC3, #787A84);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-button {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 15px;
-  font-weight: 400;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  color: #000000;
-  transition: background-color 0.3s ease, border 0.3s ease;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-
-}
-
-button:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.4);
 }

@@ -1,19 +1,8 @@
-import React, { useState } from "react";
+import UsernameGenerator from "./username-generator/UsernameGenerator";
 
-function App(){
-  const [a, setA] = useState("abhishek01")
-  const user = "Abhishek"
 
-  const changeUsername = ()=>{
-      setA(`abhishek${Math.floor(Math.random()*1000)}`);
-  }
-
-  return (
-  <>
-  <h1>Hello {user}</h1>
-  <h2> Your username- {a}</h2>
-  <button onClick={changeUsername}>Change username</button>
-  </>)
+function App() {
+  return <UsernameGenerator />;
 }
 
 export default App;
