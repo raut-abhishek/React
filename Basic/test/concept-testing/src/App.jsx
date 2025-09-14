@@ -4,6 +4,9 @@ import UseStateExample from './concepts/usestate/UseStateExample';
 import ButtonClick from './concepts/event-handling/ButtonClick';
 import HandlingTextInput from './concepts/event-handling/HandlingTextInput';
 import ConditionalRendering from './concepts/conditional-rendering/ConditionalRendering.jsx';
+import RenderNameList from './concepts/list-rendering/RenderNameList.jsx';
+
+
 
 const App = () => {
   return (
@@ -12,7 +15,8 @@ const App = () => {
       {/* <UseStateExample/> */}
       {/* <ButtonClick/> */}
       {/* <HandlingTextInput/> */}
-      <ConditionalRendering/>
+      {/* <ConditionalRendering/> */}
+      <RenderNameList/>
     </div>
   )
 }
