@@ -1,10 +1,10 @@
 import React from 'react';
-import User from './concepts/props/User'
+import UserData from './concepts/props/UserData'
 
 const App = () => {
   return (
     <div>
-      <User name="Abhishek" age={23} email="abhishek@test.com"/>
+      <UserData/>
     </div>
   )
 }

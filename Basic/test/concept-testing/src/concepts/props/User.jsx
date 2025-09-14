@@ -1,12 +1,17 @@
 // passing data to components
 import React from 'react'
 
-const User = ({name, age, email}) => {
+const User = ({user}) => {
+  let data = Object.entries(user);
   return (
     <div>
-        <h1>Name: {name}</h1>
-        <h1>Age: {age}</h1>
-        <h1>Email: {email}</h1>
+        {data.map(([key, value])=>{
+          return(
+          <h1 key={key}>
+            {key}: {value}
+          </h1>
+          )
+        })}
     </div>
   )
 }
