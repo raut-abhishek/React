@@ -7,6 +7,9 @@ import ConditionalRendering from './concepts/conditional-rendering/ConditionalRe
 import RenderNameList from './concepts/list-rendering/RenderNameList.jsx';
 import Parent from './concepts/Component communication/child to parent/Parent.jsx';
 import Parent1 from './concepts/Component communication/Parent to Child/Parent1.jsx'
+import Forms1 from './concepts/Controlled Forms/Forms1.jsx';
+
+
 
 const App = () => {
   return (
@@ -18,7 +21,8 @@ const App = () => {
       {/* <ConditionalRendering/> */}
       {/* <RenderNameList/> */}
       {/* <Parent/> */}
-      <Parent1/>
+      {/* <Parent1/> */}
+      <Forms1/>
 
 
     </div>
