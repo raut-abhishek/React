@@ -6,7 +6,7 @@ import HandlingTextInput from './concepts/event-handling/HandlingTextInput';
 import ConditionalRendering from './concepts/conditional-rendering/ConditionalRendering.jsx';
 import RenderNameList from './concepts/list-rendering/RenderNameList.jsx';
 import Parent from './concepts/Component communication/child to parent/Parent.jsx';
-
+import Parent1 from './concepts/Component communication/Parent to Child/Parent1.jsx'
 
 const App = () => {
   return (
@@ -17,7 +17,9 @@ const App = () => {
       {/* <HandlingTextInput/> */}
       {/* <ConditionalRendering/> */}
       {/* <RenderNameList/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <Parent1/>
+
 
     </div>
   )
