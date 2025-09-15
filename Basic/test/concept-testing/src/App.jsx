@@ -5,7 +5,7 @@ import ButtonClick from './concepts/event-handling/ButtonClick';
 import HandlingTextInput from './concepts/event-handling/HandlingTextInput';
 import ConditionalRendering from './concepts/conditional-rendering/ConditionalRendering.jsx';
 import RenderNameList from './concepts/list-rendering/RenderNameList.jsx';
-
+import Parent from './concepts/Component communication/child to parent/Parent.jsx';
 
 
 const App = () => {
@@ -16,7 +16,9 @@ const App = () => {
       {/* <ButtonClick/> */}
       {/* <HandlingTextInput/> */}
       {/* <ConditionalRendering/> */}
-      <RenderNameList/>
+      {/* <RenderNameList/> */}
+      <Parent/>
+
     </div>
   )
 }
