@@ -9,6 +9,7 @@ import Parent from './concepts/Component communication/child to parent/Parent.js
 import Parent1 from './concepts/Component communication/Parent to Child/Parent1.jsx'
 import Forms1 from './concepts/Controlled Forms/Forms1.jsx';
 import ApiTesting from './concepts/API testing/ApiTesting.jsx'
+import LoadindAndErrorStates from './concepts/Loading and Error States/LoadindAndErrorStates.jsx';
 
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
       {/* <Parent/> */}
       {/* <Parent1/> */}
       {/* <Forms1/> */}
-      <ApiTesting/>
+      {/* <ApiTesting/> */}
+      <LoadindAndErrorStates/>
 
 
     </div>
