@@ -2,3 +2,34 @@ body::selection{
     background-color: black;
     color: white;
 }
+
+.product-card{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 13px;
+}
+
+.product-img{
+    width: 200px;
+    height: 200px;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-no{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 2px;
+}
