@@ -11,7 +11,7 @@ import Forms1 from './concepts/Controlled Forms/Forms1.jsx';
 import ApiTesting from './concepts/API testing/ApiTesting.jsx'
 import LoadindAndErrorStates from './concepts/Loading and Error States/LoadindAndErrorStates.jsx';
 import LoadindAndErrorStates1 from './concepts/Loading and Error States/LoadindAndErrorStates1.jsx';
-
+import Pagination from './concepts/pagination/Pagination.jsx';
 
 const App = () => {
   return (
@@ -27,7 +27,8 @@ const App = () => {
       {/* <Forms1/> */}
       {/* <ApiTesting/> */}
       {/* <LoadindAndErrorStates/> */}
-      <LoadindAndErrorStates1/>
+      {/* <LoadindAndErrorStates1/> */}
+      <Pagination/>
 
 
     </div>
