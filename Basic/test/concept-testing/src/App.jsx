@@ -16,7 +16,7 @@ import Header from './concepts/context API/Header.jsx';
 import ThemeDemo from "./concepts/context API/ThemeDemo";
 import ReactMemo from './concepts/Performance optimization/ReactMemo.jsx';
 import UseMemo from './concepts/Performance optimization/UseMemo.jsx';
-
+import UseCallback from './concepts/Performance optimization/UseCallback.jsx'
 
 
 const App = () => {
@@ -38,7 +38,8 @@ const App = () => {
       {/* <Header/> */}
       {/* <ThemeDemo/> */}
       {/* <ReactMemo/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      <UseCallback/>
 
 
     </div>
