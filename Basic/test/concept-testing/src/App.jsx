@@ -14,6 +14,7 @@ import LoadindAndErrorStates1 from './concepts/Loading and Error States/LoadindA
 import Pagination from './concepts/pagination/Pagination.jsx';
 import Header from './concepts/context API/Header.jsx';
 import ThemeDemo from "./concepts/context API/ThemeDemo";
+import ReactMemo from './concepts/Performance optimization/ReactMemo.jsx';
 
 
 
@@ -35,7 +36,8 @@ const App = () => {
       {/* <LoadindAndErrorStates1/> */}
       {/* <Pagination/> */}
       {/* <Header/> */}
-      <ThemeDemo/>
+      {/* <ThemeDemo/> */}
+      <ReactMemo/>
 
 
     </div>
