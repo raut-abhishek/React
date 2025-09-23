@@ -15,7 +15,7 @@ import Pagination from './concepts/pagination/Pagination.jsx';
 import Header from './concepts/context API/Header.jsx';
 import ThemeDemo from "./concepts/context API/ThemeDemo";
 import ReactMemo from './concepts/Performance optimization/ReactMemo.jsx';
-
+import UseMemo from './concepts/Performance optimization/UseMemo.jsx';
 
 
 
@@ -37,7 +37,8 @@ const App = () => {
       {/* <Pagination/> */}
       {/* <Header/> */}
       {/* <ThemeDemo/> */}
-      <ReactMemo/>
+      {/* <ReactMemo/> */}
+      <UseMemo/>
 
 
     </div>
