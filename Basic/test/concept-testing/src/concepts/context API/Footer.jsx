@@ -2,9 +2,9 @@
 import React, { useContext } from "react";
 import ThemeContext from "./ThemeContext";
 
-const Header = () => {
+const Footer = () => {
   const { theme } = useContext(ThemeContext);
-  return <h1>Header - Current Theme: {theme}</h1>;
+  return <p>Footer - {theme} mode</p>;
 };
 
-export default Header;
+export default Footer;

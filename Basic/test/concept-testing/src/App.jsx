@@ -13,7 +13,7 @@ import LoadindAndErrorStates from './concepts/Loading and Error States/LoadindAn
 import LoadindAndErrorStates1 from './concepts/Loading and Error States/LoadindAndErrorStates1.jsx';
 import Pagination from './concepts/pagination/Pagination.jsx';
 import Header from './concepts/context API/Header.jsx';
-
+import ThemeDemo from "./concepts/context API/ThemeDemo";
 
 
 
@@ -34,8 +34,8 @@ const App = () => {
       {/* <LoadindAndErrorStates/> */}
       {/* <LoadindAndErrorStates1/> */}
       {/* <Pagination/> */}
-      <Header/>
-
+      {/* <Header/> */}
+      <ThemeDemo/>
 
 
     </div>
